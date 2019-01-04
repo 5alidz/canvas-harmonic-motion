@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>sketch</title>
+    <style>* {
+        margin: 0;
+        padding: 0;
+        font-family: 'Quicksand', sans-serif;
+      }
+      .smaller { font-size: .9rem; }
+      .normal { font-size: .9rem; }
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(200px, 700px);
+        justify-content: center;
+      }
+      #canvas-container {
+        display: flex;
+        justify-content: center;
+      }
+      #wrapper-demos {
+        display: flex;
+        justify-content: space-between;
+        background-color: #eee;
+        padding: .4rem 0.2rem;
+      }
+      #wrapper{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: .4rem;
+      }
+      .btn{
+        font-weight: bold;
+        padding: 0.2rem 1.5rem;
+      }
+      .normal-btn {
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background-color: #eee;
+        color: #222;
+      }
+      .disabled-btn {
+        color: #aaa;
+        border: 1px solid #aaa;
+      }
+      .primary-btn {
+        border: 1px solid white;
+        box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.2);
+        border-radius: 4px;
+        background-color:#4480FE;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: 600;
+      }
+      .animated-btn {
+        transform: translate(0px, -15px);
+      }
+      .grey { background-color: #eee; }
+      .bold { font-weight: bold; }</style>
+  </head>
+  <body dir="ltr" class="grey">
+    <div class="layout">
+      <div id="wrapper-demos"></div>
+    </div>
+    <div id="canvas-container"></div>
+    <div class="layout">
+      <div id="wrapper"></div>
+    </div>
+    <script src="/sketch.702e4367.js"></script>
+  </body>
+</html>

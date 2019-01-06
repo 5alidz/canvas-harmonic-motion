@@ -7,6 +7,7 @@ const blackCircle = (x, y, r, ctx) => {
   ctx.fill()
   ctx.restore()
 }
+
 export default (x, y, r, offset, angle, ctx) => {
   const _r = r / 3
   ctx.save()

@@ -1,15 +1,7 @@
 import squares from '../utils/squares.js'
 import el from '../utils/createElement.js'
 
-export const renderUiA = () => {
-  const domTarget = document.getElementById('wrapper')
-  domTarget.innerHTML = ''
-  const speedButton = el('button', {'class': 'btn normal-btn normal'}, '2X SPEED')
-  const resetButton = el('button', {'class': 'btn normal-btn normal'}, 'RESET')
-  const wrapper = el('div', {}, speedButton, resetButton)
-  domTarget.appendChild(wrapper)
-  return [resetButton, speedButton]
-}
+
 
 export default (ctx, precalc, range)=> {
   let _index = 0
